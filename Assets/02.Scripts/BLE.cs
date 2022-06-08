@@ -20,7 +20,7 @@ public class BLE : MonoBehaviour
     public TMP_Text bleMsg;
     public string message;
     private string tmp;
-    
+
     public bool bluetoothOn;
 
     // 스크립트가 실행되면 가장 먼저 호출되는 유니티 이벤트 함수
@@ -119,7 +119,7 @@ public class BLE : MonoBehaviour
         helper.SendData(i.ToString());
     }
 
-    void OnDestroy()
+    private void OnDestroy()
     {
         helper.OnScanEnded -= OnScanEnded;
         helper.OnConnected -= OnConnected;
