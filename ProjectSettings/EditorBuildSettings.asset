@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01.Scenes/UltrasonicSensor.unity
-    guid: 82dde3ceceb4bc043992a6555e03ed4d
+    path: Assets/01.Scenes/MotionSensor.unity
+    guid: edbac22c23b1f7847a085f98a0106c00
   m_configObjects: {}
